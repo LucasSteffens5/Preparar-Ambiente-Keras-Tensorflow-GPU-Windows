@@ -49,6 +49,22 @@ pip install tensorflow-gpu
 ```
 Garanta que o C++ esteja instalado em sua máquina, caso não esteja instalado basta realizar o donwload neste <a href="">link</a> e instala-lo em sua versão x64.
 
+
+Para testar se a instalação foi realizada com sucesso basta inicializar o python no prompt do anaconda e executar os seguintes comandos.
+
+```
+(nomeDeSeuAmbiente) C:\Users\Lucas Steffens>python
+
+import tensorflow.keras
+import tensorflow as tf
+
+print(f"Versao Tensor Flow : {tf.__version__}")
+print(f" Versao Keras: {tensorflow.keras.__version__}")
+
+
+gpu = len(tf.config.list_physical_devices('GPU'))>0
+print("GPU", "esta funcionando : )" if gpu else "não esta funcionando :(")
+```
 Após preparar o ambiente com todas bibliotecas é fortemente recomendado criar um arquivo de configuração para backup, basta executar o comando no prompt do conda.
 
 ```
