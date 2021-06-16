@@ -1,5 +1,5 @@
 # Preparar Ambiente Keras Tensorflow GPU Windows
-Este repositório tem como objetivo de ensinar/relembrar como preparar um ambiente keras/tensorflow utilizando GPU no Windows.
+Este repositório tem como objetivo de ensinar/relembrar como preparar um ambiente keras/tensorflow utilizando GPU juntamente com o Anaconda Navigator no Windows 10.
 
 
 # Baixando os arquivos
@@ -8,6 +8,8 @@ Primeiramente você deve ter realizado o donwload dos seguites softwares.
 
 * Drivers  <a href="https://www.nvidia.com/download/index.aspx?lang=en-us">GPU NVIDIA</a> (CUDA® 11.0 requer uma versão 450.xxx ou mais recente).
 * <a href="https://developer.nvidia.com/cuda-toolkit-archive">CUDA Toolkit</a> Se utilizar o CUDA 11 o TensorFlow  deve estar na versão 2.4.0 ou maior.
+
+Para verificar a compatibilidade do CUDA com a versão do Python e do Tensorflow acesse este <a href="https://www.tensorflow.org/install/source?hl=pt-br#linux">link</a>
 
 Após o donwload realize a instalação dos drivers e em seguida extrai o arquivo do CUDA Toolkit para uma pasta localizada em C:\tools:
 
