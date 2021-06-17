@@ -68,7 +68,7 @@ print("GPU", "esta funcionando : )" if gpu else "não esta funcionando :(")
 Após preparar o ambiente com todas bibliotecas é fortemente recomendado criar um arquivo de configuração para backup, basta executar o comando no prompt do conda.
 
 ```
-conda env create -f nomeDoAmbiente. yml
+conda env export > nomeDoAmbiente.yml
 ```
 
 
